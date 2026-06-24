@@ -1,0 +1,46 @@
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+env/
+venv/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Build
+dist/
+build/
+
+# dotenv
+.env
+.env.local
+.env.*.local
+
+# Coverage
+coverage/
+.coverage
+
+# Vim swap
+*.swp
+
+# Keep the `skills` directory as-is (it's a nested repo/submodule in this project)
+# Do not ignore `skills/` unless you intentionally want to hide it.

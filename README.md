@@ -18,7 +18,7 @@ The core skill. Wraps any implementation task in a disciplined protocol with:
 
 Best for: complex implementations, multi-day refactors, tasks where you've been burned by AI drift before.
 
-[Full documentation](skills/harness/README.md)
+[Full documentation](harness/README.md)
 
 ### `/grill-me` — Design Interrogation
 
@@ -32,16 +32,16 @@ Best for: pre-implementation design validation, finding gaps in your thinking, r
 
 ```bash
 # Copy individual skills
-cp -r skills/harness ~/.claude/skills/harness
-cp -r skills/grill-me ~/.claude/skills/grill-me
+cp -r harness ~/.claude/skills/harness
+cp -r grill-me ~/.claude/skills/grill-me
 ```
 
 ### Option 2: Clone and symlink
 
 ```bash
-git clone https://github.com/SumelRattan/dynamic-harness.git
-ln -s $(pwd)/dynamic-harness/skills/harness ~/.claude/skills/harness
-ln -s $(pwd)/dynamic-harness/skills/grill-me ~/.claude/skills/grill-me
+git clone https://github.com/SumelRattan/claude-skills.git
+ln -s $(pwd)/claude-skills/harness ~/.claude/skills/harness
+ln -s $(pwd)/claude-skills/grill-me ~/.claude/skills/grill-me
 ```
 
 ## Usage
